@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather";
+}
+
+.App {
+  background-color: black;
+  transition: 0.2s ease;
+}
+
+.App.Hot {
+  background-color: orange;
+  transition: 0.2s ease;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.App.Cold {
+  background-color: cornflowerblue;
+  transition: 0.2s ease;
+}
+
+.search-container {
+  width: 100%;
+  margin: 10px 0 50px;
+}
+
+.search-bar {
+  font-size: 15px;
+  text-align: center;
+  display: inline;
+  align-items: center;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+}
+
+.search-container .search-bar:focus {
+  background-color: white;
+}
+
+.location-container {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.location-container .date {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0 0px;
+}
+
+.weather-container {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.weather-container .weather-icon {
+  text-align: center;
+  color: white;
+  font-size: 150px;
+}
+
+.weather-container .temperature {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.weather-container .weather {
+  color: white;
+  font-size: 30px;
+}
+
+label {
+  color: white;
+  margin: 5px;
+  font-size: 15px;
+  font-family: inherit;
+}
